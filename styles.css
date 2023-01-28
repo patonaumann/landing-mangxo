@@ -1,0 +1,126 @@
+.btn-mangxo {
+    background-color: rgb(254, 199, 15);
+    color: #000;
+    font-weight: 500;
+    border-radius: 10px !important;
+    box-shadow: rgb(3 3 3 / 10%) 0px 0px 10px;
+    border: 0;
+}
+
+.btn-mangxo:hover {
+    background-color: rgb(115, 44, 156);
+    color: #fff;
+}
+
+.btn-violet {
+    background: rgb(115, 44, 156);
+    color: #fff;
+    font-weight: 500;
+    border-radius: 10px !important;
+    box-shadow: rgb(3 3 3 / 10%) 0px 0px 10px;
+    border: 0;
+}
+
+.btn-violet:hover {
+    background-color: rgb(254, 199, 15);
+    color: #000;
+    font-weight: 500;
+    border-radius: 10px !important;
+    box-shadow: rgb(3 3 3 / 10%) 0px 0px 10px;
+    border: 0;
+}
+
+.text-violet {
+    color: rgb(115, 44, 156);
+}
+
+.btn-square {
+    background-color: #fff;
+    box-shadow: rgb(3 3 3 / 10%) 0px 0px 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0;
+    width: 66px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    background-size: cover;
+    position: relative !important; 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('images/bg-header.jpeg');
+    
+}
+
+.navbar a {
+    font-size: 0.9em;
+}
+
+.features {
+    background-size: cover;
+    position: relative !important; 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: linear-gradient(rgba(66,52,3,0.8), rgba(55,52,3,0.8)), url('images/bg-about.jpeg');
+}
+
+.feature-box > .col-12 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 250px;
+    background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4));
+    border: 5px transparent;
+    border-radius: 10px;
+}
+
+.yellow {
+    color: #FEC70F;
+}
+
+.video-section {
+    background-color: #732C9C;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-box {
+    border-radius: 38px;
+    height: 500px;
+    padding: 10px;
+}
+
+.video-box iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 38px;
+}
+
+footer {
+    background: rgb(22, 20, 20, 0.8);
+}
+
+.easy-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
