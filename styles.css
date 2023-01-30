@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .btn-mangxo {
     background-color: rgb(254, 199, 15);
     color: #000;
@@ -154,6 +158,10 @@ div.hire-mangxo button {
     height: 450px;
 }
 
+.easy-section .easy-title {
+    font-size: 3em;
+}
+
 @media(max-width: 480px) {
     .images-header {
         margin-top: 70% !important;
@@ -210,5 +218,19 @@ div.hire-mangxo button {
 
     .navbar-brand img {
         height: 35px !important;
+    }
+
+
+    .easy-section .easy-title {
+        font-size: 2em;
+        margin-bottom: 2em;
+    }
+
+    .easy-section h4 {
+        font-size: 1em;
+    }
+
+    .easy-section p {
+        font-size: 1em;
     }
 }
