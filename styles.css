@@ -124,3 +124,91 @@ footer {
     flex-direction: column;
     justify-content: space-around;
 }
+
+.easy-section .btn-mangxo {
+    width: 20%;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+div.hire-mangxo .hire-mangxo-text {
+    font-size: 5em; 
+    color: #BB99D4;
+}
+
+div.hire-mangxo button {
+    width: 20%;
+}
+
+.mangxo-info-text-lg {
+    font-size: 3em;
+}
+
+.mangxo-info p {
+    font-size: 1.5em !important;
+}
+
+.mangxo-info img {
+    height: 450px;
+}
+
+@media(max-width: 480px) {
+    .images-header {
+        margin-top: 70% !important;
+    }
+
+    .feature-box > .col-12 {
+        max-height: 120px;
+        margin-top: 1em;
+        padding: 0.5em;
+    }
+
+    .feature-box > .col-12 > h4 {
+        font-size: 1em !important;
+    }
+
+    div.hire-mangxo .hire-mangxo-text {
+        font-size: 2em; 
+        color: #BB99D4;
+    }
+
+    div.hire-mangxo button {
+        width: 80% !important;
+        margin: auto !important;
+    }
+
+    .mangxo-info-text-lg {
+        font-size: 1.5em;
+    }
+    
+    .mangxo-info p {
+        font-size: 1em !important;
+    }
+    
+    .mangxo-info img {
+        height: 200px;
+    }
+
+    .easy-section .btn-mangxo {
+        width: 100% !important;
+    }
+
+    .footer-address {
+        margin-bottom: 2em;
+    }
+
+    .footer-social {
+        margin-bottom: 3em;
+        justify-content: start !important;
+    }
+
+    .footer-contact ul { 
+        padding: 0;
+    }
+
+    .navbar-brand img {
+        height: 35px !important;
+    }
+}
